@@ -7,9 +7,6 @@ function Technologies() {
     css,
     js,
     react,
-    redux,
-    tailwind,
-    bootstrap,
     sass,
     vscode,
     git,
@@ -17,15 +14,16 @@ function Technologies() {
     npm,
     postman,
     figma,
+    mongoDB,
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Tech Stack
+          Technologies
         </h1>
         <p className="text-content py-2 lg:max-w-3xl">
-          Technologies I've been working with recently
+        Les outils et technologies que j'utilise actuellement
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
@@ -33,14 +31,11 @@ function Technologies() {
         <img src={css} title="CSS" alt="" />
         <img src={js} title="JavaScript" alt="" />
         <img src={react} title="React" alt="" />
-        <img src={redux} title="Redux" alt="" />
-        <img src={tailwind} title="Tailwind CSS" alt="" />
-        <img src={bootstrap} title="Bootstrap" alt="" />
         <img src={sass} title="SASS" alt="" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Tools
+          Outils
         </h1>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
@@ -50,6 +45,7 @@ function Technologies() {
         <img src={figma} title="Figma" alt="Figma" />
         <img src={npm} title="NPM" alt="NPM" />
         <img src={postman} title="Postman" alt="Postman" />
+        <img src={mongoDB}title="MongoDB" alt="mongoDB" />
       </section>
     </main>
   );
