@@ -24,7 +24,7 @@ import projectImage3 from "./assets/projects/projet3.jpg";
 // Enter your Personal Details here
 export const personalDetails = {
   tagline: "de développeur web" ,
-  about: `Bonjour, je m'appelle Ryan, j'ai 26 ans et je me suis lancer dans le developpement web en faisant une formation avec OpenClassroom en Juin 2024.`,
+  about: `Bonjour, je m'appelle Ryan, j'ai 26 ans et je me suis lancé dans le développement web en suivant une formation avec OpenClassrooms en juin 2024.`,
 };
 
 // Enter your Social Media URLs here
