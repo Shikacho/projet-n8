@@ -29,7 +29,7 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
+  linkdein: "https://www.linkedin.com/in/ryan-bensyour-12a6b6341/",
   github: "https://github.com/Shikacho",
 };
 
