@@ -21,7 +21,7 @@ import projectImage3 from "./assets/projects/projet3.jpg";
 // Enter your Personal Details here
 export const personalDetails = {
   tagline: "développeur web",
-  about: `Bonjour, je m'appelle Ryan, j'ai 26 ans et je me suis lancé dans le développement web en suivant une formation avec OpenClassrooms en juin 2024.`,
+  about: `Bonjour, je m'appelle Ryan, j'ai 27 ans et je me suis lancé dans le développement web en suivant une formation avec OpenClassrooms en juin 2024.`,
 };
 
 // Enter your Social Media URLs here
@@ -34,10 +34,17 @@ export const socialMediaUrl = {
 export const workDetails = [
   {
     Position: "Développeur Web",
-    Company: "Toroku",
+    Company: "Talbat Construction",
     Location: "Online",
-    Type: "Full Time",
-    Duration: "Fevrier 2025 - Aujourd’hui ",
+    Type: "Freelance",
+    Duration: "Octobre 2025",
+  },
+  {
+    Position: "Développeur Web",
+    Company: "Their Memory",
+    Location: "Online",
+    Type: "Benevolat",
+    Duration: "Mars 2025 - Juin 2025",
   },
 ];
 
@@ -74,19 +81,18 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Créez une application web de location immobilière avec React",
+    title: "Site vitrine pour artisan BTP",
     image: projectImage1,
     description: `
-    Ce projet consiste à développer le front-end d'une application moderne en React, avec gestion du routage via React Router, en s'appuyant sur des maquettes et des données simulées. 
-    Lors de la mise en place de React Router, j'ai rencontré des difficultés pour gérer les routes dynamiques permettant d'afficher les détails d'une propriété spécifique.
-    J'ai utilisé les paramètres dynamiques dans les URL (via useParams) et configuré un composant de détail qui récupère les informations appropriées à partir des données simulées. 
-    Adapter les maquettes Figma pour un rendu responsive sur différents appareils a nécessité de nombreux ajustements CSS.  
-    J'ai utilisé des unités flexibles (comme % et rem) et des media queries pour garantir un affichage optimal sur mobile, tablette et desktop.
-    Les données simulées issues d'un fichier JSON étaient parfois mal formatées ou incomprises par les composants.  
-    J'ai mis en place une validation des données avec PropTypes et ajouté des valeurs par défaut pour éviter les erreurs lorsque des champs étaient manquants.
+    J’ai réalisé un site vitrine professionnel pour une entreprise de maçonnerie, de la conception à la mise en ligne.
+    Stack moderne : Next.js / React pour le front, Tailwind pour le design system et Vercel pour le déploiement.
+    J’ai conçu une interface responsive avec une galerie de réalisations et une expérience mobile soignée.
+    Les formulaires de contact et de devis sont reliés à un service d’envoi d’emails, avec validation et protection anti-spam.
+    Le projet inclut les fondamentaux SEO (métadonnées, sitemap, robots, données structurées) pour une bonne indexation.
+    Intégration d’une carte interactive et d’un header mobile dédié pour améliorer l’UX. Gestion du domaine et de la configuration DNS pour la mise en production. Focus sur la performance, l’accessibilité et la maintenabilité du code. Résultat : un site rapide, propre et prêt pour l’acquisition locale.
   `,
-    techstack: "React, SASS, JavaScript",
-    githubLink: "https://github.com/Shikacho/Projet-n5",
+    techstack: "Next.js, Tailwind, JavaScript, SEO",
+    githubLink: "https://www.maison-talbat.com/",
   },
   {
     title: "Quizz Pokémon JavaScript",
@@ -101,17 +107,17 @@ export const projectDetails = [
     githubLink: "https://quizz-pokemon.vercel.app/",
   },
   {
-    title: "Développez le back-end d'un site de notation de livres",
+    title: "To-Do List Interactive en React",
     image: projectImage3,
     description: `
-    Ce projet consiste à développer le back-end d'un site de notation de livres avec Express et MongoDB, en implémentant des opérations CRUD, un système d'authentification sécurisé, la gestion des images et une architecture MVC, tout en respectant les bonnes pratiques du Green Code.
-    Le système d'authentification JWT posait des problèmes, notamment lors de l'expiration des tokens, entraînant des erreurs pour les utilisateurs.  
-    J'ai mis en place un middleware personnalisé pour vérifier la validité des tokens et la gestion des sessions expirées avec un mécanisme de rafraîchissement (refresh token) pour une expérience utilisateur fluide.
-    Les fichiers téléchargés étaient souvent trop volumineux, ce qui impactait la performance du serveur.  
-    J'ai utilisé Multer pour gérer les téléchargements de fichiers et Sharp pour optimiser les images en les redimensionnant et en réduisant leur taille avant de les stocker, ce qui a permis d'améliorer considérablement les performances globales du serveur.
+    Ce projet a été réalisé dans le but de m’entraîner à manipuler React et à comprendre la logique de gestion d’état avec les hooks.
+    L’application permet d’ajouter, cocher et supprimer des tâches de manière fluide et réactive.
+    L’objectif principal était de consolider mes bases en React à travers un projet simple, clair et fonctionnel.
+    Le style de l’interface a été travaillé avec CSS/SASS pour un rendu propre et lisible.
+    Ce projet m’a permis d’approfondir ma compréhension du fonctionnement des composants, des props et des états dans une application React.
   `,
-    techstack: "Node.js, Express, MongoDB",
-    githubLink: "https://github.com/Shikacho/Projet-n6",
+    techstack: "React.js, CSS, HTML, JavaScript",
+    githubLink: "https://todo-app-eta-indol.vercel.app/",
   },
 ];
 
